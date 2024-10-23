@@ -15,7 +15,7 @@ export default function CryptoPriceDisplay() {
     <div className="result-wrapper">
       {loading ? <Spinner/> : hasResult && (
         <>
-          <h2>Cotizacion</h2>
+          <h2>{}</h2>
           <div className="result">
             <img
               src={`https://cryptocompare.com/${result.IMAGEURL}`}
